@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tiger-Maus Tank Project</title>
+  <title>Tiger-Maus Projects</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #0f1115; }
+    .project-section { scroll-margin-top: 80px; }
+  </style>
 </head>
 <body class="bg-[#0f1115] text-white font-sans">
 
@@ -13,23 +18,46 @@
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <a href="index.html" class="text-2xl font-bold hover:text-blue-400 transition">← Back</a>
       <div class="text-right">
-        <h1 class="text-xl font-semibold">Tiger-Maus Tank</h1>
+        <h1 class="text-xl font-semibold">Tiger-Maus Projects</h1>
         <p class="text-sm text-gray-400">Vehicle / Game Ready</p>
       </div>
     </div>
   </header>
 
-  <!-- HERO IMAGE -->
-  <section class="max-w-7xl mx-auto px-6 pt-10">
-    <div class="rounded-3xl overflow-hidden border border-[#232733] bg-[#171a21]">
-      <img src="image/Tiger_Maus_hero.webp" class="w-full object-cover max-h-[700px]" />
+  <!-- ============================================ -->
+  <!-- ОГЛАВЛЕНИЕ / НАВИГАЦИЯ -->
+  <!-- ============================================ -->
+  <section class="max-w-5xl mx-auto px-6 pt-10">
+    <div class="bg-[#171a21] rounded-3xl border border-[#232733] p-6">
+      <h2 class="text-xl font-bold mb-4">📑 Projects Overview</h2>
+      <div class="flex flex-wrap gap-4">
+        <a href="#project1" class="bg-[#222733] hover:bg-[#2f3542] transition px-6 py-3 rounded-xl text-sm font-medium">
+          🔹 Tiger-Maus Tank
+        </a>
+        <a href="#project2" class="bg-[#222733] hover:bg-[#2f3542] transition px-6 py-3 rounded-xl text-sm font-medium">
+          🔸 Tiger-Maus Mobile with MTX
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- PROJECT INFO -->
-  <section class="max-w-5xl mx-auto px-6 py-16">
-    <div class="bg-[#171a21] rounded-3xl border border-[#232733] p-10">
-      <h2 class="text-4xl font-bold mb-6">Tiger-Maus Heavy Tank</h2>
+  <!-- ============================================================ -->
+  <!-- ПРОЕКТ 1: TIGER-MAUS TANK -->
+  <!-- ============================================================ -->
+  <section id="project1" class="project-section max-w-7xl mx-auto px-6 pt-16">
+
+    <div class="border-l-4 border-blue-500 pl-4 mb-6">
+      <h2 class="text-3xl font-bold">Tiger-Maus Tank</h2>
+      <p class="text-gray-400">Vehicle / Game Ready</p>
+    </div>
+
+    <!-- HERO IMAGE -->
+    <div class="rounded-3xl overflow-hidden border border-[#232733] bg-[#171a21]">
+      <img src="image/Tiger_Maus_hero.webp" class="w-full object-cover max-h-[700px]" />
+    </div>
+
+    <!-- PROJECT INFO -->
+    <div class="bg-[#171a21] rounded-3xl border border-[#232733] p-10 mt-6">
       <p class="text-gray-300 leading-relaxed text-lg mb-8">
         Real-time heavy tank created for game production. Features detailed armor plates, PBR materials, and optimized topology for smooth performance.
       </p>
@@ -50,7 +78,7 @@
         </div>
         <div>
           <p class="text-gray-400 text-sm mb-1">Textures</p>
-          <p class="text-xl font-semibold">3 2k sets</p>
+          <p class="text-xl font-semibold">3 × 2k sets</p>
         </div>
         <div>
           <p class="text-gray-400 text-sm mb-1">Workflow</p>
@@ -62,65 +90,57 @@
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- GALLERY -->
-  <section class="max-w-7xl mx-auto px-6 pb-16">
-    <h3 class="text-2xl font-bold mb-6">Gallery</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      <!-- Ракурс 1 - Tiger_Maus_angle1 -->
-      <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/Tiger_Maus_angle1.webp" class="w-full hover:scale-105 transition duration-300" />
-      </div>
-      
-      <!-- Ракурс 2 - Tiger_Maus_angle2 -->
-      <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/Tiger_Maus_angle2.webp" class="w-full hover:scale-105 transition duration-300" />
-      </div>
-      
-      <!-- Вид сбоку - Tiger_Maus_Side (на всю ширину) -->
-      <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/Tiger_Maus_Side.webp" class="w-full hover:scale-105 transition duration-300" />
-        <p class="text-sm text-gray-400 p-3">Side View</p>
-      </div>
-      
-      <!-- Вид сзади - Tiger_Maus_Back -->
-      <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/Tiger_Maus_Back.webp" class="w-full hover:scale-105 transition duration-300" />
-        <p class="text-sm text-gray-400 p-3">Back View</p>
-      </div>
-
-      <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>>Tiger-Maus Mobile with MTX</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-[#0f1115] text-white font-sans">
-
-  <!-- HEADER -->
-  <header class="border-b border-[#1f232c] sticky top-0 backdrop-blur bg-[#0f1115cc] z-50">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="index.html" class="text-2xl font-bold hover:text-blue-400 transition">← Back</a>
-      <div class="text-right">
-        <h1 class="text-xl font-semibold">Tiger-Maus Mobile with MTX</h1>
-        <p class="text-sm text-gray-400">Vehicle / Game Ready</p>
+    <!-- GALLERY -->
+    <div class="mt-10">
+      <h3 class="text-2xl font-bold mb-6">📸 Gallery</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/Tiger_Maus_angle1.webp" class="w-full hover:scale-105 transition duration-300" />
+        </div>
+        
+        <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/Tiger_Maus_angle2.webp" class="w-full hover:scale-105 transition duration-300" />
+        </div>
+        
+        <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/Tiger_Maus_Side.webp" class="w-full hover:scale-105 transition duration-300" />
+          <p class="text-sm text-gray-400 p-3">Side View</p>
+        </div>
+        
+        <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/Tiger_Maus_Back.webp" class="w-full hover:scale-105 transition duration-300" />
+          <p class="text-sm text-gray-400 p-3">Back View</p>
+        </div>
+        
       </div>
     </div>
-  </header>
 
-  <!-- HERO IMAGE -->
-  <section class="max-w-7xl mx-auto px-6 pt-10">
+  </section>
+
+  <!-- РАЗДЕЛИТЕЛЬ -->
+  <div class="max-w-5xl mx-auto px-6 py-12">
+    <div class="border-t border-[#232733]"></div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- ПРОЕКТ 2: TIGER-MAUS MOBILE WITH MTX -->
+  <!-- ============================================================ -->
+  <section id="project2" class="project-section max-w-7xl mx-auto px-6 pb-16">
+
+    <div class="border-l-4 border-green-500 pl-4 mb-6">
+      <h2 class="text-3xl font-bold">Tiger-Maus Mobile with MTX</h2>
+      <p class="text-gray-400">Vehicle / Game Ready</p>
+    </div>
+
+    <!-- HERO IMAGE -->
     <div class="rounded-3xl overflow-hidden border border-[#232733] bg-[#171a21]">
       <img src="image/tigermaus_03.jpg" class="w-full object-cover max-h-[700px]" />
     </div>
-  </section>
 
-  <!-- PROJECT INFO -->
-  <section class="max-w-5xl mx-auto px-6 py-16">
-    <div class="bg-[#171a21] rounded-3xl border border-[#232733] p-10">
-      <h2 class="text-4xl font-bold mb-6">Tiger-Maus Mobile with MTX</h2>
+    <!-- PROJECT INFO -->
+    <div class="bg-[#171a21] rounded-3xl border border-[#232733] p-10 mt-6">
       <p class="text-gray-300 leading-relaxed text-lg mb-8">
         Full-cycle asset creation from low/high poly modeling, rigging and animations to engine integration.
       </p>
@@ -139,12 +159,24 @@
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
         <div>
           <p class="text-gray-400 text-sm mb-1">Triangles Base</p>
-          <p class="text-xl font-semibold">7.2k Base | 9.5k MTX</p>
+          <p class="text-xl font-semibold">7.2k</p>
         </div>
         <div>
-          <p class="text-gray-400 text-sm mb-1">Textures</p>
-          <p class="text-xl font-semibold">1 2k set Base | 2 2k set MTX</p>
+          <p class="text-gray-400 text-sm mb-1">Triangles MTX</p>
+          <p class="text-xl font-semibold">9.5k</p>
         </div>
+        <div>
+          <p class="text-gray-400 text-sm mb-1">Textures Base</p>
+          <p class="text-xl font-semibold">1 × 2k set</p>
+        </div>
+        <div>
+          <p class="text-gray-400 text-sm mb-1">Textures MTX</p>
+          <p class="text-xl font-semibold">2 × 2k sets</p>
+        </div>
+      </div>
+
+      <!-- ДОПОЛНИТЕЛЬНЫЕ СТАТЫ -->
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6">
         <div>
           <p class="text-gray-400 text-sm mb-1">Workflow</p>
           <p class="text-xl font-semibold">Game Ready</p>
@@ -153,45 +185,52 @@
           <p class="text-gray-400 text-sm mb-1">Year</p>
           <p class="text-xl font-semibold">2025</p>
         </div>
-           <p><a href="https://www.youtube.com/watch?v=bE6kf2tPLYY" target="_blank">Official studio showcase (YouTube)</a></p>
+        <div>
+          <p class="text-gray-400 text-sm mb-1">Engine</p>
+          <p class="text-xl font-semibold">DAVA</p>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- GALLERY -->
-  <section class="max-w-7xl mx-auto px-6 pb-16">
-    <h3 class="text-2xl font-bold mb-6">Gallery</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      <!-- Ракурс 1 - Tiger_Maus_angle1 -->
-      <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/tigermaus_01.jpg" class="w-full hover:scale-105 transition duration-300" />
+      <!-- YOUTUBE LINK -->
+      <div class="mt-8 pt-6 border-t border-[#232733]">
+        <a href="https://www.youtube.com/watch?v=bE6kf2tPLYY" target="_blank" 
+           class="inline-flex items-center gap-3 bg-red-600 hover:bg-red-500 transition px-6 py-3 rounded-xl font-semibold">
+          <span>▶</span> Official studio showcase (YouTube)
+        </a>
       </div>
-      
-      <!-- Вид сзади -Tiger_Maus_Back -->
-      <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/tigermaus_02.jpg" class="w-full hover:scale-105 transition duration-300" />
-      </div>
-      
-      <!-- Ракурс 1 Tiger_Maus_Skin -->
-      <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/tigermaus_03.jpg" class="w-full hover:scale-105 transition duration-300" />
-        <p class="text-sm text-gray-400 p-3">Angle View</p>
-      </div>
-      
-      <!-- Вид сзади  Tiger_Maus_Skin_2 -->
-      <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/tigermaus_04.jpg" class="w-full hover:scale-105 transition duration-300" />
-        <p class="text-sm text-gray-400 p-3">Back View</p>
-      </div>
-      
-           <!-- Вид с сеткой  Tiger_Maus_Wireframe -->
-      <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
-        <img src="image/tigermaus_05.jpg" class="w-full hover:scale-105 transition duration-300" />
-        <p class="text-sm text-gray-400 p-3">Wireframe View</p>
-      </div>
-      
     </div>
+
+    <!-- GALLERY -->
+    <div class="mt-10">
+      <h3 class="text-2xl font-bold mb-6">📸 Gallery</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/tigermaus_01.jpg" class="w-full hover:scale-105 transition duration-300" />
+        </div>
+        
+        <div class="rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/tigermaus_02.jpg" class="w-full hover:scale-105 transition duration-300" />
+        </div>
+        
+        <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/tigermaus_03.jpg" class="w-full hover:scale-105 transition duration-300" />
+          <p class="text-sm text-gray-400 p-3">Angle View</p>
+        </div>
+        
+        <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/tigermaus_04.jpg" class="w-full hover:scale-105 transition duration-300" />
+          <p class="text-sm text-gray-400 p-3">Back View</p>
+        </div>
+        
+        <div class="md:col-span-2 rounded-2xl overflow-hidden border border-[#232733] bg-[#171a21]">
+          <img src="image/tigermaus_05.jpg" class="w-full hover:scale-105 transition duration-300" />
+          <p class="text-sm text-gray-400 p-3">Wireframe View</p>
+        </div>
+        
+      </div>
+    </div>
+
   </section>
 
   <!-- BACK BUTTON -->
